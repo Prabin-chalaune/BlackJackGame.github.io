@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jspractice</title>
+
+    <link rel="styleSheet" href="index.css">
+
+</head>
+
+
+<body>
+    <p class="card">Black jack</p>
+    <p id="message-el">Do you want to play a round?</p>
+    <p id="card">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button onclick={renderGame()} >Start Game</button>
+    <button onclick={runCard()}>New Card</button>
+    <button onClick="window.location.reload()">Refresh</button>
+    <button onclick={ClosePage()}>Exit</button>
+    <p id="player-el"></p>
+
+ <script src="game.js"></script>
+</body>
+
+</html>
